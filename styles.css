@@ -3,9 +3,9 @@
     overflow: hidden;
 }
 
-a:link, a:visited {
-    color: white;
-    
+.account:link, .account:visited{
+    color: green;
+    text-decoration: none;
 }
 
 #doc {
@@ -52,4 +52,18 @@ a:link, a:visited {
     color: white;
     bottom: 2%;
     left: 9%;
+}
+
+.credit:link, .credit:visited {
+    color: white;
+}
+
+.sign-up {
+    display: flex;
+    width: calc((100vw * 2) / 3);
+    box-sizing: border-box;
+    padding: 2%;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
 }
