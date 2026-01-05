@@ -65,27 +65,65 @@
     gap: 5%;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
     background-color: white;
+    color: #36454F;
     box-sizing: border-box;
     padding-left: 5%;
     padding: 2%;
     display: flex;
     gap: 10%;
+    box-shadow: 0 4px 6px -4px #808588;
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger;
 }
 
 label {
     display: block;
+    font-size: x-small;
+    font-weight: 550;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
 .sign-up p {
     text-indent: 2%;
+    font-weight: 550;
+}
+
+.info {
+    font-weight: bold;
+    font-size: larger;
 }
 
 button {
     margin-left: 2%;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
 }
